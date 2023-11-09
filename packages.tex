@@ -1,10 +1,15 @@
 % import packages here
 
+% amsmath with fleqn causes "LaTeX Error: Option clash for package amsmath."	
+% float is already loaded via amsmath
+% loading amssymb causes "LaTeX Error: Command `\Bbbk' already defined." error with the MNRAS package
+
+
 \usepackage{graphicx}	% Including figure files
-\usepackage[fleqn]{amsmath}	% Advanced maths commands
-\usepackage{float}
+%\usepackage[fleqn]{amsmath}	% Advanced maths commands
+%\usepackage{float}
 \usepackage{amstext}
-\usepackage{amssymb}	% Extra maths symbols
+%\usepackage{amssymb}	% Extra maths symbols
 \usepackage{url}
 \usepackage{tabularx}
 \usepackage{mathtools}
